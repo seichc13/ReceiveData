@@ -5,6 +5,9 @@ class ReceiveData
 {
 public:
     ReceiveData();
+    ~ReceiveData();
+
+    int getValue(int id);
 };
 
 #endif // RECEIVEDATA_H
